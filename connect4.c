@@ -42,7 +42,6 @@ int main(int argc, char *argv[]){
 		
 		if(checkSetValue(connect4grid, enteredValue) == 0){
 			printf("That space is already taken! Shame on you...try again...\n");
-			drawGrid(connect4grid);
 			continue;
 		}
 		else{
